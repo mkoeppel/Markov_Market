@@ -1,5 +1,21 @@
 # Markov_Simulation_Supermarket
 
-Designed as weekly project during the SPICED Data Science Bootcamp we developed a markov-chain simulation of supermarket customer behaviour. It is our (somewhat politically incorrect) version of a supermarket in which an erratically moving POTUS hunts serious politicians who want to do their weekend groceries. 
+With this fictional supermarket data we answer several business questions regarding customer behaviour.  \ 
+The code to answer these questions is provided in the jupyter notebook 'EDA_TransitionProbabil.ipynb'.
 
-While it is still under development credits already go to: CarinaFuerst, brauliotegui and rafaguev
+1. How many customers are present in each section of the supermarket throughout the week?
+2. What is the total number of customers in each section over time?
+3. What is the average time each customer spent in the market?
+4. Are there any differences in time spent at the first section a customer visit compared to the following ones?
+5. What are the revenues per section, which is the most profitable one?
+6. Calculate transition probability matrix.
+
+Additionally, to optimize customer experience while shopping, we provide a simulation of customers in this supermarket using OOP.
+However, our supermarket underwent certain changes while programming, so the original sections changed:
+
+1: dairy --> celebrities
+2: spices --> snacks
+3: fruits --> famous US-items
+4: drinks --> alcoholics
+
+Also, we changed our customers, so famous politicians do their shopping with us now (and somehow we caught an erratically moving POTUS haunting them). 
