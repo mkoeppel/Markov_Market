@@ -1,14 +1,14 @@
 # Markov_Simulation_Supermarket
 
 Using fictional customer data of a supermarket we answer several business questions regarding customer behaviour and to model their way through the supermarket.
-The project can be divided in the ffollowing steps:
+The project can be divided in the following steps:
 
 Exploratory data analysis \
 Calculation of transition probablilities \
-Markov-Chain simulation \
+Markov-Chain modeling + Monte-Carlo simulation \
 Visualization
 
-The code to answer these questions is provided in the jupyter notebook 'EDA_TransitionProbabil.ipynb'.
+The code to answer these business questions is provided in the jupyter notebook 'EDA_TransitionProbabil.ipynb':
 
 1. How many customers are present in each section of the supermarket throughout the week?
 2. What is the total number of customers in each section over time?
@@ -17,7 +17,7 @@ The code to answer these questions is provided in the jupyter notebook 'EDA_Tran
 5. What are the revenues per section, which is the most profitable one?
 6. Calculate transition probability matrix.
 
-Additionally, to optimize customer experience while shopping, we provide a simulation of customers in this supermarket using OOP.
+The python-script provides the code for the simulation and visualization of customer behaviour using OOP.
 However, our supermarket underwent certain changes while programming (so it would be more entertaining), therefore the original sections changed:
 
 1. dairy --> celebrities
